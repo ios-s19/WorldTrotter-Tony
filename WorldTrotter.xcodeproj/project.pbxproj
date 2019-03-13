@@ -14,6 +14,7 @@
 		0E218575221CDBA40036B12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E218573221CDBA40036B12E /* LaunchScreen.storyboard */; };
 		0E218580221CDBA40036B12E /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21857F221CDBA40036B12E /* WorldTrotterTests.swift */; };
 		0E21858B221CDBA40036B12E /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21858A221CDBA40036B12E /* WorldTrotterUITests.swift */; };
+		0EE949EB2238867F00DEEC28 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE949EA2238867F00DEEC28 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0E218586221CDBA40036B12E /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E21858A221CDBA40036B12E /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		0E21858C221CDBA40036B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE949EA2238867F00DEEC28 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0E218569221CDBA20036B12E /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				0EE949EA2238867F00DEEC28 /* MapViewController.swift */,
 				0E21856A221CDBA20036B12E /* AppDelegate.swift */,
 				0E21856E221CDBA20036B12E /* Main.storyboard */,
 				0E218571221CDBA40036B12E /* Assets.xcassets */,
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0E218562221CDBA20036B12E /* Build configuration list for PBXProject "WorldTrotter" */;
+			buildConfigurationList = 0E218562221CDBA20036B12E /* Build configuration list for PBXProject "worldTrotter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E12D94422261D2100536F7E /* ConversionViewController.swift in Sources */,
+				0EE949EB2238867F00DEEC28 /* MapViewController.swift in Sources */,
 				0E21856B221CDBA20036B12E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E218562221CDBA20036B12E /* Build configuration list for PBXProject "WorldTrotter" */ = {
+		0E218562221CDBA20036B12E /* Build configuration list for PBXProject "worldTrotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E21858D221CDBA40036B12E /* Debug */,
